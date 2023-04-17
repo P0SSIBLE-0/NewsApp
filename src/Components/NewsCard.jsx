@@ -1,6 +1,6 @@
 const NewsCard = ({ article }) => {
   return (
-    <div className="max-w-sm sm:max-w-sm lg:max-w-sm rounded overflow-hidden shadow-lg my-5 m-auto flex flex-col justify-around">
+    <div className="max-w-sm sm:max-w-sm lg:max-w-sm rounded overflow-hidden shadow-lg my-5 m-auto flex flex-col justify-around sm:mx-2">
       <img
         className="w-full h-48 object-cover"
         src={article.image}
