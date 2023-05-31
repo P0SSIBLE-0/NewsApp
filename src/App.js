@@ -99,7 +99,7 @@ const fetchNews = async (category, country) => {
             <h1 className="text-4xl font-bold text-center py-3" id="headline">Top headlines</h1>
           </div>
     </div>
-      <div className="flex flex-wrap lg:px-8 my-4">
+      <div className="flex flex-wrap justify-around lg:px-8 my-4 mx-2">
         {articles.map((article, index) => (
         <NewsCard key={index} article={article}  />
       ))}
